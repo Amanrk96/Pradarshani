@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_share"
+        android:title="Share"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_share"/>
+    <item
+        android:id="@+id/action_encrypt"
+        android:title="Encrypt"
+        app:showAsAction="collapseActionView"/>
+
+    <item
+        android:id="@+id/action_decrypt"
+        android:title="Decrypt"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/action_delete"
+        android:title="Delete"
+        app:showAsAction="collapseActionView"/>
+
+</menu>
